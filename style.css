@@ -441,10 +441,31 @@ img {
 
 }
 
+@media (min-width: 925px) and (max-width: 991px) {
+    .offcanvas img {
+        width: 300px !important;
+        height: 300px !important;
+        margin-left: 165px;
+    }
+
+    .offcanvas .navbar-nav {
+        margin-top: 100px !important;
+    }
+
+    .offcanvas .nav-item a,
+    .dropdown {
+        font-size: 32px !important;
+        margin-top: 6px !important;
+        text-align: center;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .carousel h3 {
         font-size: 40px;
     }
+
+
 }
 
 @media (min-width: 1200px) {
